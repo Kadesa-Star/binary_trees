@@ -1,4 +1,5 @@
 * BINARY TREE DATA STRUCTURE
+============================
 
 - A binary tree is a non-linear data structure whre each node has at most two children;
 	- Left Child
@@ -6,13 +7,13 @@
 - Topmost node in a binary tree is the *root*
 - The bottomost are the *leaves*
 
-** Representation of a Binary Tree
+* Representation of a Binary Tree
 ==================================
 	+ Data
 	+ Pointer to the left child
 	+ Pointer to the right child
 
-** Operations on Binary Tree
+* Operations on Binary Tree
 	1. Insertion in a Binary Tree
 	2. Traversal of Binary Tree
 		- Depth-First Search (DFS) Algorithms
@@ -27,12 +28,12 @@
 	3. Deletion in Binary Tree
 	4. Searching in Binary Tree
 
-*** Advantages of Binary Tree
+* Advantages of Binary Tree
 	- Efficient Search when searching for a specific element
 	- Memory efficient as it requires less memory as compared to other tree data structures 
 	- Binary Trees are relatively easy to implement and understand as each node has atmost two children.
 
-*** Applications of Binary Tree
+* Applications of Binary Tree
 ===============================
 1. can be used to represent hierarchical data
 2. Data compression algorithms e.g. Huffman coding Trees
@@ -41,7 +42,7 @@
 5. Implementation of Decision Trees - a machine learning algorithm jused for classification and regression analysis.
 
 
-**Resources
+* Resources
 - Geeksforgeeks
 - freecodecamp
 - tutorialspoint
