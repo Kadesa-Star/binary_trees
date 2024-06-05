@@ -18,11 +18,11 @@
 	2. Traversal of Binary Tree
 		- Depth-First Search (DFS) Algorithms
 			i. Preorder Traversal (current-left-right)
-				*visit current node before visiting any nodes inside the left or right subtrees i.e. root-left child-right child
+				- visit current node before visiting any nodes inside the left or right subtrees i.e. root-left child-right child
 			ii. Inorder Traversal (left-Current-right)
-				*visit current node after visiting all nodes inside the left subtree but before visiting any node within the right subtree i.e left child - root - right child
+				- visit current node after visiting all nodes inside the left subtree but before visiting any node within the right subtree i.e left child - root - right child
 			iii. Postorder Traversal (left-right-current)
-				*visit current node after visiting all the nodes of the left and right subtrees i.e left child - right child - root
+				- visit current node after visiting all the nodes of the left and right subtrees i.e left child - right child - root
 		- Breadth-First Search (BFS) algorithms
 			- visit nodes level by level and left to right fashion at the same level. Most left child is traversed first then other children of the same level from left to right have traversed
 	3. Deletion in Binary Tree
