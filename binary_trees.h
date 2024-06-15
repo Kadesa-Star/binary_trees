@@ -73,7 +73,7 @@ int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 size_t dequeue(binary_tree_t ***queue, size_t size);
 size_t enqueue(binary_tree_t ***queue, binary_tree_t *node, size_t size);
-
+int is_bst_helper(const binary_tree_t *tree, int min, int max);
 void binary_tree_print(const binary_tree_t *);
 
 
